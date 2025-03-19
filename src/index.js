@@ -10,7 +10,18 @@ document.addEventListener("DOMContentLoaded", () => {
     if (taskDescription !== '') {
       const li = document.createElement('li');
 
+      //creating deleteBtn 
+
+      const deleteBtn = document.createElement('button');
+      deleteBtn.textContent = 'remove';
+
+      deleteBtn.addEventListener('click', ()=>{
+        taskList.removeChild(li);
+      })
+
       li.textContent = taskDescription;
+
+      li.appendChild(deleteBtn)
       taskList.appendChild(li);
       form.reset()
     }
