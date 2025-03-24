@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
-  const form = document.getElementById('create-task-form');
+\  const form = document.getElementById('create-task-form');
 
 
   const taskList = document.getElementById('tasks');
@@ -10,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (taskDescription !== '') {
       const li = document.createElement('li');
 
-      //creating deleteBtn 
+      //creating i  deleteBtn 
 
       const deleteBtn = document.createElement('button');
       deleteBtn.textContent = 'remove';
