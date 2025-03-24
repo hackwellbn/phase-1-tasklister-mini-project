@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-\  const form = document.getElementById('create-task-form');
+ const form = document.getElementById('create-task-form');
 
 
   const taskList = document.getElementById('tasks');
